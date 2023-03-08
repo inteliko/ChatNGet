@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
     
     loader(messageDiv)
 
-    const response = await fetch('https://meta-mind-2-0.onrender.com', {
+    const response = await fetch('https://chatnget.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
